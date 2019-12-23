@@ -1,5 +1,4 @@
 package com.example;
-import com.google.gson.Gson;
 import org.json.JSONObject;
 
 public class JsonExample
