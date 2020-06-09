@@ -21,7 +21,7 @@ public class GsonExample1 {
         // String json = gson.toJson(staff);
 
         // Java objects to File
-        try (FileWriter writer = new FileWriter("C:\\IdeaProjects\\JSONJava\\src\\main\\resources\\staffExample.json")) {
+        try (FileWriter writer = new FileWriter("E:\\IdeaProjects\\JSONJava\\src\\main\\resources\\staffExample.json")) {
             gson.toJson(staff, writer);
         } catch (IOException e) {
             e.printStackTrace();

@@ -15,7 +15,7 @@ public class JsonSimpleReadExample {
 
     public static void main(String[] args) {
         JSONParser parser = new JSONParser();
-//        String filename = "C:\\IdeaProjects\\JSONJava\\src\\main\\resources\\json_test.json";
+//        String filename = "E:\\IdeaProjects\\JSONJava\\src\\main\\resources\\json_test.json";
         String filename = "json_test.json";
 
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();

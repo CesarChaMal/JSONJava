@@ -21,7 +21,7 @@ public class JsonSimpleWriteExample {
 
         obj.put("messages", list);
 
-        try (FileWriter file = new FileWriter("C:\\IdeaProjects\\JSONJava\\src\\main\\resources\\json_test.json")) {
+        try (FileWriter file = new FileWriter("E:\\IdeaProjects\\JSONJava\\src\\main\\resources\\json_test.json")) {
             file.write(obj.toString());
         } catch (IOException e) {
             e.printStackTrace();

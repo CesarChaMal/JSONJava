@@ -15,7 +15,7 @@ public class GsonExample3 {
 		// pretty print 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-        try (Reader reader = new FileReader("C:\\IdeaProjects\\JSONJava\\src\\main\\resources\\staff.json")) {
+        try (Reader reader = new FileReader("E:\\IdeaProjects\\JSONJava\\src\\main\\resources\\staff.json")) {
 		
             // Convert JSON to JsonElement, and later to String
             JsonElement json = gson.fromJson(reader, JsonElement.class);
